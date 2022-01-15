@@ -1,0 +1,43 @@
+diff --git a/node_modules/react-native-material-textfield/src/components/affix/index.js b/node_modules/react-native-material-textfield/src/components/affix/index.js
+index d6c9d64..d7cfd41 100644
+--- a/node_modules/react-native-material-textfield/src/components/affix/index.js
++++ b/node_modules/react-native-material-textfield/src/components/affix/index.js
+@@ -24,7 +24,7 @@ export default class Affix extends PureComponent {
+     baseColor: PropTypes.string.isRequired,
+     animationDuration: PropTypes.number.isRequired,
+ 
+-    style: Animated.Text.propTypes.style,
++    // style: Animated.Text.propTypes.style,
+ 
+     children: PropTypes.oneOfType([
+       PropTypes.arrayOf(PropTypes.node),
+diff --git a/node_modules/react-native-material-textfield/src/components/helper/.index.js.swp b/node_modules/react-native-material-textfield/src/components/helper/.index.js.swp
+new file mode 100644
+index 0000000..22bd0ce
+Binary files /dev/null and b/node_modules/react-native-material-textfield/src/components/helper/.index.js.swp differ
+diff --git a/node_modules/react-native-material-textfield/src/components/helper/index.js b/node_modules/react-native-material-textfield/src/components/helper/index.js
+index 60184ea..0d20d8f 100644
+--- a/node_modules/react-native-material-textfield/src/components/helper/index.js
++++ b/node_modules/react-native-material-textfield/src/components/helper/index.js
+@@ -10,7 +10,7 @@ export default class Helper extends PureComponent {
+   };
+ 
+   static propTypes = {
+-    style: Animated.Text.propTypes.style,
++    // style: Animated.Text.propTypes.style,
+     children: PropTypes.oneOfType([
+       PropTypes.arrayOf(PropTypes.node),
+       PropTypes.node,
+diff --git a/node_modules/react-native-material-textfield/src/components/label/index.js b/node_modules/react-native-material-textfield/src/components/label/index.js
+index ac3ed53..3d4a9a9 100644
+--- a/node_modules/react-native-material-textfield/src/components/label/index.js
++++ b/node_modules/react-native-material-textfield/src/components/label/index.js
+@@ -29,7 +29,7 @@ export default class Label extends PureComponent {
+ 
+     animationDuration: PropTypes.number.isRequired,
+ 
+-    style: Animated.Text.propTypes.style,
++    // style: Animated.Text.propTypes.style,
+ 
+     children: PropTypes.oneOfType([
+       PropTypes.arrayOf(PropTypes.node),

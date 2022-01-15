@@ -1,0 +1,118 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  heading: {
+    fontSize: 22,
+    fontWeight: 'normal',
+    fontFamily: 'BebasNeue-Regular',
+    letterSpacing: 1,
+    color: '#000000',
+    alignSelf: 'flex-end',
+  },
+  exerciseView: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 50,
+    paddingTop: 30,
+  },
+  startBtnView: {
+    width: '90%',
+    flexDirection: 'row',
+    paddingTop: 20,
+    justifyContent: 'space-between',
+  },
+  startBtn: {
+    borderRadius: 20,
+    padding: 8,
+    backgroundColor: '#440164',
+  },
+  startBtnText: {
+    color: 'white',
+    fontSize: 12,
+    fontWeight: 'normal',
+    fontFamily: 'Roboto-Medium',
+  },
+  buttons: {
+    margin: 20,
+    width: '90%',
+  },
+  exerciseImgView: {
+    marginBottom: 10,
+    borderColor: '#AA3FA6',
+    borderWidth: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  titleView: {
+    maxHeight: 100,
+    maxWidth: 100,
+    justifyContent: 'center',
+    paddingLeft: 10,
+  },
+  exerciseText: {
+    color: '#000000',
+    fontSize: 22,
+    fontWeight: 'normal',
+    fontFamily: 'BebasNeue-Regular',
+    letterSpacing: 1,
+  },
+  exTitleView: {
+    maxHeight: 100,
+    maxWidth: 150,
+    justifyContent: 'center',
+    paddingLeft: 10,
+  },
+  exTitleImg: {
+    resizeMode: 'cover',
+    maxWidth: 250,
+    maxHeight: 100,
+    borderTopLeftRadius: 200,
+  },
+  insView: {
+    backgroundColor: '#ECECEC',
+    marginBottom: 20,
+  },
+  insHeading: {
+    fontFamily: 'BebasNeue-Regular',
+    fontWeight: '400',
+    letterSpacing: 1,
+    fontSize: 16,
+    color: '#000000',
+  },
+  insText: {
+    padding: 10,
+    fontFamily: 'BebasNeue-Regular',
+    fontSize: 14,
+    fontWeight: 'normal',
+    letterSpacing: 1,
+    color: '#000000',
+    //textAlign:"center"
+  },
+  triangle: {
+    width: 0,
+    height: 0,
+    backgroundColor: 'transparent',
+    borderStyle: 'solid',
+    borderRightWidth: 100,
+    borderTopWidth: 100,
+    borderRightColor: 'transparent',
+    borderTopColor: 'white',
+    position: 'absolute',
+    zIndex: 1,
+  },
+  backIcon: {
+    backgroundColor: '#440164',
+    borderRadius: 20,
+    marginTop: 10,
+    marginLeft: 10,
+    maxHeight: 40,
+    maxWidth: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});

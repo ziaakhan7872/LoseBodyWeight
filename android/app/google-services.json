@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "735712241463",
+    "firebase_url": "https://loosebodyweight-14024-default-rtdb.firebaseio.com",
+    "project_id": "loosebodyweight-14024",
+    "storage_bucket": "loosebodyweight-14024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735712241463:android:c73615f8f8bc46ac239cb2",
+        "android_client_info": {
+          "package_name": "com.developerzloop.loosebodyweight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735712241463-upas9d5ii09dn5cd15a4pqqlrrqen4bp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developerzloop.loosebodyweight",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "735712241463-bctunho9dcjiqj5alrsovhbib0vh5eo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiCw96YGgl1a9AI-pgz2iNDE1G3hQHHZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735712241463-bctunho9dcjiqj5alrsovhbib0vh5eo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
